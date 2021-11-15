@@ -7,7 +7,7 @@
 			}
 			#mainarea{
 			width:1800px;
-			height:2450px;
+			height:3200px;
 			background:#47F13E;
 			margin:0 auto;
 			}
@@ -26,7 +26,7 @@
 			float:left;
 			}
 			#t2{
-			width:800px;
+			width:1000px;
 			color:#FFC300;
 			font:bold 25px helvetica;
 			margin:5px 50px 5px 250px;
@@ -71,10 +71,12 @@
 			word-spacing:10px;
 			}
 			#menuarea{
-			width:100%;
+			width:1800px;
 			height:50px;
 			background:#3EEAF1;
 			float:left;
+			position:sticky;
+			top:0;
 			}
 			#menuarea ul li{
 			float:left;
@@ -85,17 +87,17 @@
 			list-style-type:none;
 			}
 			#menuarea ul li a:link,#menuarea ul li a:visited{
-			color:#FFC300;
-			background:#000;			
+			color:white;
+			background:#000;
+			font-weight:bold;			
 			text-decoration:none;
-			font-weight:bold;
-			padding:17px 140px;
+			padding:16px 140px;
 			display:block;
 			border-right:solid 1px #FFF;
 			}
 			#menuarea ul li a:hover{
-			color:#000;
-			background:#FFC300;
+			color:#FFF;
+			background:#F2184F;
 			}
 			#Students{
 			width:100%;
@@ -123,10 +125,6 @@
 			margin:10px;
 			border-radius:30px 0px;
 			}
-			#P2 h2{
-			padding:20px;	
-			color:white;
-			}
 			#Facility{
 			width:1800px;
 			height:800px;
@@ -141,8 +139,9 @@
 			float:left;
 			}
 			#ftop h1{
-			font-size:50px;
-			padding-bottom:50px;
+			font-size:45px;
+			font-weight:bold;
+			padding-bottom:40px;
 			}
 			#farea{
 			width:1800px;
@@ -204,11 +203,64 @@
 			border-radius:20px 0px;
 			float:left;
 			}
-			#Footer{
+			#activity{
 			width:100%;
-			height:250px;
+			height:800px;
 			background:black;
 			float:left;
+			}
+			#atop{
+			width:1800px;
+			height:100px;
+			background:black;
+			color:#FFC300;
+			float:left;
+			}		
+			#atop h1{
+			font-size:45px;
+			font-weight:bold;
+			padding-bottom:40px;
+			}
+			#aarea{
+			width:1800px;
+			height:700px;
+			background:white;
+			float:left;
+			}
+			.abox
+			{
+			width:500px;
+			height:500px;
+			background:skyblue;
+			margin-left:80px;
+			margin-top:100px;
+			float:left;
+			position:relative;
+			}
+			.abox img{
+			width:100%;
+			height:100%;
+			}
+			.details{
+			width:440px;
+			padding:20px 30px;
+			position:absolute;
+			bottom:0;
+			background:rgba(0,0,0,0.5);
+			text-align:center;
+			font-weight:bold;
+			color:white;
+			font-size:30px;
+			}
+			.details:hover{
+			color:yellow;
+			background:black
+			}
+			#footer{
+			width:1800px;
+			height:200px;
+			background:black;
+			float:left;	
 			}
 
 		</style>
@@ -220,7 +272,7 @@
 					Estd. 2019
 				</div>
 				<div id="t2">
-					<marquee direction="right"> School Closed Due to Covid !! </marquee>
+					<marquee direction="left"> School Closed Due to Covid !! </marquee>
 				</div>
 				<div id="t3">
 					<a href="tel:9142655867"> Contact: 9142655867 </a>	
@@ -245,7 +297,7 @@
 				</ul>
 			</div>	
 			<div id="Students">
-				<img src="child4.jpg" height="700px" width="100%"/>
+				<img src="child4.jpg" height="680px" width="100%"/>
 			</div>	
 			<div id="Principal">
 				<div id="P1">
@@ -304,7 +356,32 @@
 					</div>
 				</div>
 			</div>	
-			<div id="Footer">
+			<div id="activity">
+				<div id="atop">
+					<h1 align="center"> Activities </h1>
+				</div>
+				<div id="aarea">
+					<div class="abox">
+						<img src="yoga.jpg"/>
+						<div class="details">
+							Yoga Classes
+						</div>
+					</div>
+					<div class="abox">
+						<img src="play.jpg"/>
+						<div class="details">
+							Games
+						</div>
+					</div>
+					<div class="abox">
+						<img src="drawing.jpg"/>
+						<div class="details">
+							Drawing
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
 
 			</div>	
 		</div>	
