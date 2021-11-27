@@ -2,238 +2,10 @@
 	<head>
 		<title> ADMISSION </title>
 		<style type="text/css">
-			body{
-			background-color:purple;
-			}
-			#mainarea{
-			width:1800px;
-			height:2690px;
-			background:#47F13E;
-			margin:0 auto;
-			}
 			
-			#topmost{
-			width:1800px;
-			height:40px;
-			background:#000;
-			float:left;
-			}
-			#t1{
-			color:#FFC300;
-			font:bold 25px helvetica;
-			margin-left:20px;
-			margin-top:5px;
-			height:40px;
-			float:left;
-			}
-			#t2{
-			width:1000px;
-			color:#FFC300;
-			font:bold 25px helvetica;
-			margin:5px 50px 5px 250px;
-			height:40px;
-			float:left;
-			}
-			#t3{
-			color:#FFC300;
-			font:bold 25px helvetica;
-			margin-right:20px;
-			margin-top:5px;
-			height:40px;
-			float:right;
-			}
-			#t3 a:link,a:visited{
-			color:#FFC300;
-			text-decoration:none;
-			}
-			#t3 a:hover{
-			color:white;
-			}
-			#toparea{
-			width:1800px;
-			height:150px;
-			background:#FFF;
-			float:left;
-			}
-			#logoarea{
-			width:200px;	
-			height:150px;
-			background:blue;
-			float:left;
-			}
-			#titlearea{
-			height:150px;
-			width:1600px;
-			background:white;
-			float:left;
-			}
-			#titlearea h1{
-			font-size:50px;
-			word-spacing:10px;
-			}
-			#menuarea{
-			width:100%;
-			height:50px;
-			background:#3EEAF1;
-			float:left;
-			position:sticky;
-			top:0;
-			z-index:100;
-			}
-			#menuarea ul li{
-			float:left;
-			}
-			#menuarea ul{
-			margin:0;
-			padding:0;
-			list-style-type:none;
-			}
-			#menuarea ul li a:link,#menuarea ul li a:visited{
-			color:white;
-			background:#000;
-			font-weight:bold;			
-			text-decoration:none;
-			padding:16px 140px;
-			display:block;
-			border-right:solid 1px #FFF;
-			}
-			#menuarea ul li a:hover{
-			color:#FFF;
-			background:#F2184F;
-			transform:scaleY(1.1);
-			transition-property:transform;
-			transition-duration:0.2s;
-			}
-			#admission{
-			width:1800px;
-			height:2100px;
-			background:white;
-			float:left;
-			}
-			#a1{
-			width:1800px;
-			height:500px;
-			margin-top:50px;
-			float:left;
-			}
-			#a2{
-			width:1800px;
-			height:700px;
-			margin-top:50px;
-			float:left;
-			background:#FFC300;
-			}
-			#a2top{
-			width:1800px;
-			height:100px;
-			float:left;
-			}
-			#form{
-			margin:100px 400px;
-			width:1000px;
-			height:400px;
-			float:left;
-			background:white;
-			box-shadow:20px 20px 10px grey;
-			border-radius:20px;
-			}
-			#a3{
-			width:1800px;
-			height:900px;
-			float:left;
-			}
-			#a3top{
-			text-shadow:2px 2px white;
-			width:1800px;
-			height:100px;
-			background:black;
-			color:yellow;
-			float:left;
-			}
-			#a3area{
-			width:1800px;
-			height:800px;
-			float:left;
-			}
-			#a31{
-			width:800px;
-			height:800px;
-			float:left;
-			}
-			#a31 h2{
-			padding:50px 200px 0px 200px;
-			}
-			
-			#a32{
-			width:1000px;
-			height:800px;
-			float:left;
-			}
-			.circle{
-			background:#FFC300;	
-			width:200px;
-			height:200px;
-			margin:50px;
-			border-radius:50%;
-			float:left;
-			}
-			.circle h2{
-			padding:45px 25px;
-			}
-			.circle:hover{
-			transform:scale(1.1,1.1);
-			transition-property:transform background;
-			transition-duration:1s;
-			background:#FF3366;
-			}
-			#footer{
-			width:1800px;
-			height:400px;
-			background:black;
-			float:left;	
-			}
-			#footerTop{
-			width:1800px;
-			height:100px;
-			background:black;
-			color:yellow;
-			float:left;
-			}
-			#footertop h1:hover{
-			text-shadow:2px 2px white;
-			}
-			#footerarea{
-			width:1800px;
-			height:300px;
-			background:black;
-			color:white;
-			float:left;
-			}
-			.fbox{
-			width:500px;
-			height:250px;
-			float:left;
-			background:black;
-			margin-top:25px;
-			margin-left:80px;
-			
-			}
-			.fbox ul{
-			list-style-type:none;
-			border-left:solid 1px #000;
-			}
-			.fbox ul li{
-			line-height:33px;
-			}
-			.fbox a:link,.fbox a:visited{
-			text-decoration:none;
-			font-size:20px;
-			color:white;
-			}
-			.fbox a:hover{
-			color:#F2184F;
-			}
 		</style>
+		<link rel="stylesheet" type="text/css" href="style3.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 	</head>
 	<body>
 		<div id="mainarea">
@@ -245,7 +17,7 @@
 					<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()"> School Closed Due to Covid !! </marquee>
 				</div>
 				<div id="t3">
-					<a href="tel:9142655867"> Contact: 9142655867 </a>	
+					<a href="tel:9142655867"> <i class="fa  fa-phone-square"> </i> Contact: 9142655867 </a>	
 				</div>
 			</div>	
 			<div id="toparea">
@@ -259,11 +31,12 @@
 			</div>	
 			<div id="menuarea">
 				<ul>
-					<li> <a href="index.html"> HOME </a> </li>
-					<li> <a href="about.html"> ABOUT </a> </li>
-					<li> <a href="#"> ADMISSIONS </a> </li>
-					<li> <a href="#"> GALLERY </a> </li>
-					<li> <a href="#"> CONTACT US </a> </li>
+					
+					<li> <a href="index.html"> <i class="fa fa-home"> </i> HOME </a> </li>
+					<li> <a href="about.html"> <i class="fa fa-address-card-o"> </i> ABOUT </a> </li>
+					<li> <a href="admission.html"> <i class="fa fa-institution"> </i> ADMISSIONS </a> </li>
+					<li> <a href="gallery.html"> <i class="fa fa-image"> </i> GALLERY </a> </li>
+					<li> <a href="#"> <i class="fa fa-address-book"> </i> CONTACT US </a> </li>
 				</ul>
 			</div>	
 			<div id="admission">
@@ -298,22 +71,22 @@
 						</div>
 						<div id="a32">
 							<div class="circle">
-								<h2> Develop Social Skill </h2>
+								<h2> <i class="fa fa-user"> </i>  Develop Social Skill </h2>
 							</div>
 							<div class="circle">
-								<h2> Respect for Others </h2>
+								<h2>  <i class="fa fa-book"> </i>  Respect for Others </h2>
 							</div>
 							<div class="circle">
-								<h2> Emotional Skills </h2>
+								<h2> <i class="fa fa-pencil"> </i>  Emotional Skills </h2>
 							</div>
 							<div class="circle">
-								<h2> Language Profieciency </h2>
+								<h2> <i class="fa fa-trophy"> </i>  Language Profieciency </h2>
 							</div>
 							<div class="circle">
-								<h2> Group Activities </h2>
+								<h2> <i class="fa fa-child"> </i>  Group Activities </h2>
 							</div>
 							<div class="circle">
-								<h2> Following Montessari Method </h2>
+								<h2> <i class="fa fa-folder-open"> </i>  Following Montessari Method </h2>
 							</div>
 						</div>
 					</div>
@@ -327,26 +100,29 @@
 				</div>
 				<div id="footerarea">
 					<div class="fbox">
-						<h2 align="center"> ADDRESS </h2>
+						<h2 align="center"> <i class="fa fa-map-marker"> </i>  ADDRESS </h2>
 						
 						<h2 align="center"> Dhirajganj, Near Mangalam City ,Gamharia , Jamshedpur, 832108 </h2>
 					</div>
 					<div class="fbox"> 
-						<h2 align="center"> MENU </h2>
+						<h2 align="center"> <i class="fa fa-bars"> </i>  MENU </h2>
 						
-						<ul align="center">
-							<li> <a href="index.html"> HOME </a> </li>
-							<li> <a href="about.html"> ABOUT </a> </li>
-							<li> <a href="admission.html"> ADMISSION </a> </li>
-							<li> <a href="#"> GALLERY </a> </li>
-							<li> <a href="#"> CONTACT US </a> </li>
+						<ul>
+							
+					<li> <a href="index.html"> <i class="fa fa-home"> </i> HOME </a> </li>
+					<li> <a href="about.html"> <i class="fa fa-address-card-o"> </i> ABOUT </a> </li>
+					<li> <a href="admission.html"> <i class="fa fa-institution"> </i> ADMISSIONS </a> </li>
+					<li> <a href="gallery.html"> <i class="fa fa-image"> </i> GALLERY </a> </li>
+					<li> <a href="#"> <i class="fa fa-address-book"> </i> CONTACT US </a> </li>
 						</ul>
 					</div>
 					<div class="fbox">
-						<h2 align="center"> CONTACTS US </h2>
-						
-						<h2 align="center"> <a href="tel:9142655867"> +9142655867 </a> </h2>
-						<h2 align="center"> <a href="mailto:pushpakpandit2002@gmail.com?subject=Query"> GMAIL:pushpakpandit2002@gmail.com </a> </h2>
+						<h2 align="center"> <i class="fa fa-address-book"> </i>  CONTACTS US </h2>
+						 <a href="tel:9142655867"> <i class="fa  fa-phone-square"> </i> +9142655867 </a> <br/>
+						 <a href="mailto:pushpakpandit2002@gmail.com?subject=Query"> <i class="fa  fa-envelope"> </i> GMAIL </a> <br/>
+						 <a href="https://twitter.com/PushpakPandit2?s=09">  <i class="fa  fa-twitter"> </i> Twitter </a> <br/>
+						 <a href="https://m.facebook.com/Being-Bookish-103689508366316/?ref=bookmarks">  <i class="fa  fa-facebook"> </i> Facebook </a> <br/>
+						 <a href="http://www.youtube.com/c/BeingBookish"> <i class="fa  fa-youtube"> </i> Youtube </a> <br/>
 					</div>
 				</div>
 			</div>	
