@@ -3,7 +3,7 @@
 			}
 			#mainarea{
 			width:1800px;
-			height:1590px;
+			height:1840px;
 			background:#47F13E;
 			margin:0 auto;
 			}
@@ -103,7 +103,7 @@
 			}
 			#contact{
 			width:1800px;
-			height:1000px;
+			height:1200px;
 			background:white;
 			float:left;
 			}
@@ -115,10 +115,51 @@
 			}
 			#carea{
 			width:1800px;
-			height:230px;
-			margin:50px 0px 0px 400px;
+			height:650px;
 			float:left;
+			}
+			#cbox{
+			width:1800px;
+			height:270px;
+			float:left;
+			}
+			.box{
+			z-index:100;
+			width:400px;
+			height:200px;
+			margin:50px 20px 0px 150px;
+			float:left;
+			}
+			.box1{
+			width:100px;
+			height:200px;
+			background:#E91E63;
+			float:left;
+			}
+			.box1 i{
+			color:white;
+			font-size:50px;
+			margin:80px 20px 50px 30px;
+			}
+			.box2{
+			width:250px;
+			height:200px;
+			padding-left:10px;
+			background:#10B6FE;
+			color:white;
+			float:left;
+			}
+			.box2 h3{
+			color:yellow;
+			}
+			.box2 a:link,.box2 a:visited{
+			color:yellow;
+			text-decoration:none;
+			}
 
+			.box2 a:hover{
+			font-size:30px;
+			transform:scale(1.2,1.2);
 			}
 
 			#footer{
